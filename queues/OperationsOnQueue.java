@@ -39,7 +39,7 @@ public class OperationsOnQueue<T>{
         ListNode prev,next;
         ListNode(T data,ListNode prev,ListNode next){
             this.data = data;
-           // this.prev = prev;
+            this.prev = prev;
             this.next = next;
         }
     }
